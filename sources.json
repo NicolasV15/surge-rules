@@ -8,14 +8,6 @@
     "kind": "DOMAIN-SET"
   },
   {
-    "id": "ai",
-    "url": "https://ruleset.skk.moe/List/non_ip/ai.conf",
-    "repository": "https://github.com/SukkaLab/ruleset.skk.moe",
-    "license": "AGPL-3.0",
-    "mode": "track",
-    "kind": "RULE-SET"
-  },
-  {
     "id": "apple",
     "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Apple/Apple_All_No_Resolve.list",
     "repository": "https://github.com/blackmatrix7/ios_rule_script",

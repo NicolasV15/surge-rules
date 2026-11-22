@@ -24,7 +24,7 @@ Surge 从本仓库 `main` 的 GitHub Raw 地址加载规则，使用默认 24 �
 
 使用公开片段前，在自己的 `[Proxy Group]` 中定义对应组并选择已有出口。按域名共享的请求遵循其命中的清单。
 
-[ai-other.list](local/ai-other.list) 包含 Copilot、Perplexity、NotebookLM、TRAE 国际站、Dify 云端和若干集成，包括 GitHub 通用 API `api.github.com`。TRAE 中国站 `trae.cn` 等国内站点沿用已有的地区分流规则。此前的两个 AI 总表 URL 保留给旧客户端。
+[ai-other.list](local/ai-other.list) 包含 Copilot、Perplexity、NotebookLM、TRAE 国际站、Dify 云端和若干集成，包括 GitHub 通用 API `api.github.com`。TRAE 中国站 `trae.cn` 等国内站点沿用已有的地区分流规则。
 
 ## 验证与回退
 
