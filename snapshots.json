@@ -40,5 +40,8 @@
   },
   "china-asn": {
     "sha256": "807bfb69e31e6db51c39922f10111245da59f307a1cfde8481f243ca8072f539"
+  },
+  "claude-code": {
+    "sha256": "1ca1ffbecfb7096fe5967a855bdfc472e6b4458825ce562017e8c28c04d3f0ea"
   }
 }

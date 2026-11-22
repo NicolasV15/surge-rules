@@ -110,5 +110,13 @@
     "license": "GPL-2.0",
     "mode": "manual",
     "kind": "RULE-SET"
+  },
+  {
+    "id": "claude-code",
+    "url": "https://raw.githubusercontent.com/erwanjun/surge-claude-rules/main/Surge/Claude-Core.list",
+    "repository": "https://github.com/erwanjun/surge-claude-rules",
+    "license": "MIT",
+    "mode": "track",
+    "kind": "RULE-SET"
   }
 ]
