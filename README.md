@@ -12,14 +12,13 @@ Surge 从本仓库 `main` 的 GitHub Raw 地址加载规则，使用默认 24 �
 | 服务 | Surge 规则 | 来源和维护方式 |
 | --- | --- | --- |
 | Codex | [codex.list](local/codex.list) | 根据 [OpenAI 网络说明](https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps) 和本仓库已有规则维护。Codex 的登录、模型服务和 ChatGPT 共用部分域名。 |
-| Gemini | [gemini.list](local/gemini.list) | 根据 [Gemini API 文档](https://ai.google.dev/api)、[Code Assist 源码](https://github.com/google-gemini/gemini-cli/blob/main/packages/core/src/code_assist/server.ts) 和本仓库已有规则维护。覆盖 Gemini 网页、AI Studio、API 和 Code Assist。 |
+| Google AI（Gemini、Antigravity） | [google-ai.list](local/google-ai.list) | 覆盖 Gemini 网页、AI Studio、API、Code Assist 和 Antigravity 的专用站点及 Business AI Code 端点。依据 [Gemini API 文档](https://ai.google.dev/api)、[Code Assist 源码](https://github.com/google-gemini/gemini-cli/blob/main/packages/core/src/code_assist/server.ts) 和 [Antigravity 网络说明](https://antigravity.google/docs/enterprise/#network-allowlists-and-mtls-endpoints) 维护。 |
 | Claude Code | [claude-code.list](rules/track/claude-code.list) | 每天跟踪 [erwanjun 的 Claude Core 清单](https://github.com/erwanjun/surge-claude-rules/blob/main/Surge/Claude-Core.list)。包含其共用的 Claude 和 Anthropic 域名，以及 IP 回退规则。 |
-| Antigravity | [antigravity.list](local/antigravity.list) | 根据 [Google Antigravity 网络说明](https://antigravity.google/docs/enterprise/#network-allowlists-and-mtls-endpoints) 维护专用网站和 Business AI Code 端点。与 Gemini 共用的 `cloudcode-pa.googleapis.com` 仍由 Gemini 清单匹配。 |
 
 | 策略组 | 使用的清单 | 参考配置 |
 | --- | --- | --- |
 | `OpenAI` | codex.list | 默认主力美国节点 |
-| `Google AI` | gemini.list、antigravity.list | 共用策略组，默认主力美国节点 |
+| `Google AI` | google-ai.list | Gemini 与 Antigravity 共用，默认 🇺🇸 美国节点 |
 | `Claude Code` | claude-code.list | 默认主力美国节点；可用 `hidden=1` 隐藏 |
 | `Other AI Platform` | ai-other.list | 其他 AI 服务与集成；可用 `hidden=1` 隐藏 |
 

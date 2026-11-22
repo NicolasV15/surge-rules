@@ -1,3 +1,5 @@
+# Google AI: Gemini and Antigravity.
+
 # Gemini app, AI Studio, Gemini API, and Gemini Code Assist endpoints.
 # https://ai.google.dev/api
 # https://github.com/google-gemini/gemini-cli/blob/main/packages/core/src/code_assist/server.ts
@@ -24,3 +26,13 @@ DOMAIN,daily-cloudcode-pa.sandbox.googleapis.com
 
 # Gemini-specific login redirect from Sukka AIGC (AGPL-3.0).
 URL-REGEX,https://www\.google\.com/.*continue=https://gemini\.google\.com.+
+
+# Antigravity-specific sites and developer tools endpoints.
+# https://antigravity.google/docs/enterprise/#network-allowlists-and-mtls-endpoints
+DOMAIN,antigravity.google
+DOMAIN,antigravity.google.com
+DOMAIN,antigravity-unleash.goog
+DOMAIN,businessaicode.googleapis.com
+DOMAIN,businessaicode.us.rep.googleapis.com
+DOMAIN,businessaicode.eu.rep.googleapis.com
+DOMAIN,businessaicode.mtls.googleapis.com

@@ -7,7 +7,7 @@ BASE = "https://raw.githubusercontent.com/NicolasV15/surge-rules/main"
 # Placeholders in the comments mark the insertion points for private rules.
 ORDER = [
     "anti-ad", "apple", "# Insert any device-specific Apple overrides here.",
-    "local/codex", "local/gemini", "claude-code", "local/antigravity", "local/ai-other",
+    "local/codex", "local/google-ai", "claude-code", "local/ai-other",
     "github", "microsoft", "telegram", "local/wechat",
     "youtube", "bilibili", "china-media", "global-media", "google",
     "# Insert local direct/routing exceptions here.",
@@ -18,9 +18,8 @@ POLICY = {
     "anti-ad": "REJECT,extended-matching",
     "apple": "Apple",
     "local/codex": 'OpenAI',
-    "local/gemini": '"Google AI"',
+    "local/google-ai": '"Google AI"',
     "claude-code": '"Claude Code"',
-    "local/antigravity": '"Google AI"',
     "local/ai-other": '"Other AI Platform"',
     "github": "Proxy",
     "microsoft": "Microsoft",
