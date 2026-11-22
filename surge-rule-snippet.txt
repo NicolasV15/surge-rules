@@ -5,6 +5,7 @@ RULE-SET,https://raw.githubusercontent.com/NicolasV15/surge-rules/main/rules/tra
 RULE-SET,https://raw.githubusercontent.com/NicolasV15/surge-rules/main/local/codex.list,"AI Platform"
 RULE-SET,https://raw.githubusercontent.com/NicolasV15/surge-rules/main/local/gemini.list,"AI Platform"
 RULE-SET,https://raw.githubusercontent.com/NicolasV15/surge-rules/main/rules/track/claude-code.list,"AI Platform"
+RULE-SET,https://raw.githubusercontent.com/NicolasV15/surge-rules/main/local/antigravity.list,"AI Platform"
 RULE-SET,https://raw.githubusercontent.com/NicolasV15/surge-rules/main/local/ai-other.list,"AI Platform"
 RULE-SET,https://raw.githubusercontent.com/NicolasV15/surge-rules/main/rules/manual/github.list,Proxy
 RULE-SET,https://raw.githubusercontent.com/NicolasV15/surge-rules/main/rules/manual/microsoft.list,Microsoft

@@ -1,0 +1,9 @@
+# Antigravity-specific sites and developer tools endpoints.
+# https://antigravity.google/docs/enterprise/#network-allowlists-and-mtls-endpoints
+DOMAIN,antigravity.google
+DOMAIN,antigravity.google.com
+DOMAIN,antigravity-unleash.goog
+DOMAIN,businessaicode.googleapis.com
+DOMAIN,businessaicode.us.rep.googleapis.com
+DOMAIN,businessaicode.eu.rep.googleapis.com
+DOMAIN,businessaicode.mtls.googleapis.com

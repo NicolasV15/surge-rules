@@ -1,4 +1,4 @@
-# Existing routes for other AI providers and integrations (excludes Codex, Gemini, Claude Code).
+# Existing routes for other AI providers and integrations (excludes Codex, Gemini, Claude Code and Antigravity).
 
 # GitHub Copilot
 DOMAIN, api.githubcopilot.com
@@ -52,12 +52,10 @@ DOMAIN,api.github.com
 DOMAIN,api.jetbrains.ai
 DOMAIN,jules.google.com
 DOMAIN-SUFFIX,notebooklm.google
-DOMAIN,antigravity.google
 DOMAIN,server.codeium.com
 DOMAIN,aicode.googleapis.com
 DOMAIN,inference.codeium.com
 DOMAIN-SUFFIX,notebooklm.google.com
-DOMAIN,antigravity-unleash.goog
 DOMAIN,gateway.ai.cloudflare.com
 DOMAIN,aisandbox-pa.googleapis.com
 DOMAIN,server.self-serve.windsurf.com
