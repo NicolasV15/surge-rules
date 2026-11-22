@@ -1,0 +1,15 @@
+name: Validate Surge rules
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - run: python3 scripts/rules.py validate
+      - run: python3 -m unittest discover -s scripts -p 'test_*.py'

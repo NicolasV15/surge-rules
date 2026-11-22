@@ -1,0 +1,114 @@
+[
+  {
+    "id": "anti-ad",
+    "url": "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge2.txt",
+    "repository": "https://github.com/privacy-protection-tools/anti-AD",
+    "license": "MIT",
+    "mode": "track",
+    "kind": "DOMAIN-SET"
+  },
+  {
+    "id": "ai",
+    "url": "https://ruleset.skk.moe/List/non_ip/ai.conf",
+    "repository": "https://github.com/SukkaLab/ruleset.skk.moe",
+    "license": "AGPL-3.0",
+    "mode": "track",
+    "kind": "RULE-SET"
+  },
+  {
+    "id": "apple",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Apple/Apple_All_No_Resolve.list",
+    "repository": "https://github.com/blackmatrix7/ios_rule_script",
+    "license": "GPL-2.0",
+    "mode": "track",
+    "kind": "RULE-SET"
+  },
+  {
+    "id": "global-media",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GlobalMedia/GlobalMedia_All_No_Resolve.list",
+    "repository": "https://github.com/blackmatrix7/ios_rule_script",
+    "license": "GPL-2.0",
+    "mode": "track",
+    "kind": "RULE-SET"
+  },
+  {
+    "id": "google",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Google/Google.list",
+    "repository": "https://github.com/blackmatrix7/ios_rule_script",
+    "license": "GPL-2.0",
+    "mode": "track",
+    "kind": "RULE-SET"
+  },
+  {
+    "id": "proxy",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Proxy/Proxy_All_No_Resolve.list",
+    "repository": "https://github.com/blackmatrix7/ios_rule_script",
+    "license": "GPL-2.0",
+    "mode": "track",
+    "kind": "RULE-SET"
+  },
+  {
+    "id": "wechat",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surge/WeChat/WeChat.list",
+    "repository": "https://github.com/blackmatrix7/ios_rule_script",
+    "license": "GPL-2.0",
+    "mode": "manual",
+    "kind": "RULE-SET"
+  },
+  {
+    "id": "github",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GitHub/GitHub.list",
+    "repository": "https://github.com/blackmatrix7/ios_rule_script",
+    "license": "GPL-2.0",
+    "mode": "manual",
+    "kind": "RULE-SET"
+  },
+  {
+    "id": "microsoft",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Microsoft/Microsoft.list",
+    "repository": "https://github.com/blackmatrix7/ios_rule_script",
+    "license": "GPL-2.0",
+    "mode": "manual",
+    "kind": "RULE-SET"
+  },
+  {
+    "id": "telegram",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Telegram/Telegram.list",
+    "repository": "https://github.com/blackmatrix7/ios_rule_script",
+    "license": "GPL-2.0",
+    "mode": "manual",
+    "kind": "RULE-SET"
+  },
+  {
+    "id": "youtube",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YouTube/YouTube.list",
+    "repository": "https://github.com/blackmatrix7/ios_rule_script",
+    "license": "GPL-2.0",
+    "mode": "manual",
+    "kind": "RULE-SET"
+  },
+  {
+    "id": "bilibili",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/BiliBili/BiliBili.list",
+    "repository": "https://github.com/blackmatrix7/ios_rule_script",
+    "license": "GPL-2.0",
+    "mode": "manual",
+    "kind": "RULE-SET"
+  },
+  {
+    "id": "china-media",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaMedia/ChinaMedia.list",
+    "repository": "https://github.com/blackmatrix7/ios_rule_script",
+    "license": "GPL-2.0",
+    "mode": "manual",
+    "kind": "RULE-SET"
+  },
+  {
+    "id": "china-asn",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaASN/ChinaASN_Resolve.list",
+    "repository": "https://github.com/blackmatrix7/ios_rule_script",
+    "license": "GPL-2.0",
+    "mode": "manual",
+    "kind": "RULE-SET"
+  }
+]

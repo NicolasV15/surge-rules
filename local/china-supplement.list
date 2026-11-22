@@ -1,0 +1,10 @@
+# Independently written candidate using public DNS zones and service homepages.
+# Inactive until tested against the existing China fallback.
+DOMAIN-SUFFIX,cn
+DOMAIN-SUFFIX,taobao.com
+DOMAIN-SUFFIX,tmall.com
+DOMAIN-SUFFIX,alipay.com
+DOMAIN-SUFFIX,alicdn.com
+DOMAIN-SUFFIX,aliyun.com
+DOMAIN-SUFFIX,baidu.com
+DOMAIN-SUFFIX,dianping.com
