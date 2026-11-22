@@ -1,3 +1,16 @@
-# WeChat image CDN destinations observed during upload. Keep these narrowly scoped.
+# Personal routing rules for WeChat first-party services.
+# Keep shared Tencent services outside this list unless a WeChat endpoint is verified.
+DOMAIN-SUFFIX,weixin.qq.com
+DOMAIN-SUFFIX,wechat.com
+DOMAIN-SUFFIX,wx.qq.com
+DOMAIN,mmbiz.qpic.cn
+DOMAIN,wx.qlogo.cn
+DOMAIN,thirdwx.qlogo.cn
+DOMAIN,socwxc2c.video.qq.com
+DOMAIN,socwxsns.video.qq.com
+DOMAIN,50.wxapp.tc.qq.com
+
+# Image transfers observed in Surge with the c2c.cdn.weixin.qq.com hostname.
 IP-CIDR6,2409:8c38:70:120:52::/128,no-resolve
 IP-CIDR6,2409:8c38:70:120:58::/128,no-resolve
+IP-CIDR6,2409:8c38:70:120:64::/128,no-resolve

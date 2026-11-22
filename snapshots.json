@@ -17,9 +17,6 @@
   "proxy": {
     "sha256": "78c561b6900e08b8aaaceb76bac350731d1deadbffb4875d7fae29b6abd031c1"
   },
-  "wechat": {
-    "sha256": "c581a62b0f3110c4a6814e5f45a372e07a4d91cd0e8bccb57f903b86cd2c0293"
-  },
   "github": {
     "sha256": "ced8ab0ecda5775d04ec8ee6a57b282181108565331a6a1d85e9a26fee25d79b"
   },

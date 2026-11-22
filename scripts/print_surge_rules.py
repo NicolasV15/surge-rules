@@ -8,7 +8,7 @@ BASE = "https://raw.githubusercontent.com/NicolasV15/surge-rules/main"
 ORDER = [
     "anti-ad", "apple", "# Insert any device-specific Apple overrides here.",
     "local/codex", "local/gemini", "claude-code", "local/ai-other",
-    "github", "microsoft", "telegram", "local/wechat", "wechat",
+    "github", "microsoft", "telegram", "local/wechat",
     "youtube", "bilibili", "china-media", "global-media", "google",
     "# Insert local direct/routing exceptions here.",
     "proxy", "china-asn",
@@ -25,7 +25,6 @@ POLICY = {
     "microsoft": "Microsoft",
     "telegram": "Telegram",
     "local/wechat": "DIRECT",
-    "wechat": "DIRECT",
     "youtube": "YouTube",
     "bilibili": "BiliBili",
     "china-media": "DIRECT",

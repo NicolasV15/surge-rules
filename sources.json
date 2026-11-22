@@ -48,14 +48,6 @@
     "kind": "RULE-SET"
   },
   {
-    "id": "wechat",
-    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surge/WeChat/WeChat.list",
-    "repository": "https://github.com/blackmatrix7/ios_rule_script",
-    "license": "GPL-2.0",
-    "mode": "manual",
-    "kind": "RULE-SET"
-  },
-  {
     "id": "github",
     "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GitHub/GitHub.list",
     "repository": "https://github.com/blackmatrix7/ios_rule_script",

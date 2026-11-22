@@ -10,7 +10,6 @@ RULE-SET,https://raw.githubusercontent.com/NicolasV15/surge-rules/main/rules/man
 RULE-SET,https://raw.githubusercontent.com/NicolasV15/surge-rules/main/rules/manual/microsoft.list,Microsoft
 RULE-SET,https://raw.githubusercontent.com/NicolasV15/surge-rules/main/rules/manual/telegram.list,Telegram
 RULE-SET,https://raw.githubusercontent.com/NicolasV15/surge-rules/main/local/wechat.list,DIRECT
-RULE-SET,https://raw.githubusercontent.com/NicolasV15/surge-rules/main/rules/manual/wechat.list,DIRECT
 RULE-SET,https://raw.githubusercontent.com/NicolasV15/surge-rules/main/rules/manual/youtube.list,YouTube
 RULE-SET,https://raw.githubusercontent.com/NicolasV15/surge-rules/main/rules/manual/bilibili.list,BiliBili
 RULE-SET,https://raw.githubusercontent.com/NicolasV15/surge-rules/main/rules/manual/china-media.list,DIRECT
