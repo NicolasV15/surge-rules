@@ -16,9 +16,16 @@ Surge 从本仓库 `main` 的 GitHub Raw 地址加载规则，使用默认 24 �
 | Claude Code | [claude-code.list](rules/track/claude-code.list) | 每天跟踪 [erwanjun 的 Claude Core 清单](https://github.com/erwanjun/surge-claude-rules/blob/main/Surge/Claude-Core.list)。包含其共用的 Claude 和 Anthropic 域名，以及 IP 回退规则。 |
 | Antigravity | [antigravity.list](local/antigravity.list) | 根据 [Google Antigravity 网络说明](https://antigravity.google/docs/enterprise/#network-allowlists-and-mtls-endpoints) 维护专用网站和 Business AI Code 端点。与 Gemini 共用的 `cloudcode-pa.googleapis.com` 仍由 Gemini 清单匹配。 |
 
-四个规则集分别匹配，默认都使用已有的 `AI Platform` 策略。可在个人配置里分别指定出口。以共享域名进行的请求会匹配到同一服务分类。通用认证、下载、包管理和第三方云端点按现有策略分流。
+| 策略组 | 使用的清单 | 参考配置 |
+| --- | --- | --- |
+| `OpenAI` | codex.list | 默认主力美国节点 |
+| `Google AI` | gemini.list、antigravity.list | 共用策略组，默认主力美国节点 |
+| `Claude Code` | claude-code.list | 默认主力美国节点；可用 `hidden=1` 隐藏 |
+| `Other AI Platform` | ai-other.list | 其他 AI 服务与集成；可用 `hidden=1` 隐藏 |
 
-其他已有 AI 服务（如 Copilot、Perplexity 和 NotebookLM）由 [ai-other.list](local/ai-other.list) 承接。此前的两个 AI 总表 URL 保留给旧客户端，接入片段已使用分开的规则。
+使用公开片段前，在自己的 `[Proxy Group]` 中定义对应组并选择已有出口。按域名共享的请求遵循其命中的清单。
+
+[ai-other.list](local/ai-other.list) 包含 Copilot、Perplexity、NotebookLM、TRAE 国际站、Dify 云端和若干集成，包括 GitHub 通用 API `api.github.com`。TRAE 中国站 `trae.cn` 等国内站点沿用已有的地区分流规则。此前的两个 AI 总表 URL 保留给旧客户端。
 
 ## 验证与回退
 
