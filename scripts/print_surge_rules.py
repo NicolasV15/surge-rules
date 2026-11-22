@@ -24,7 +24,7 @@ POLICY = {
     "github": "Proxy",
     "microsoft": "Microsoft",
     "telegram": "Telegram",
-    "local/wechat": "DIRECT",
+    "local/wechat": "DIRECT,extended-matching",
     "youtube": "YouTube",
     "bilibili": "BiliBili",
     "china-media": "DIRECT",
