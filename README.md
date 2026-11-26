@@ -22,7 +22,7 @@ Surge 从本仓库 `main` 的 GitHub Raw 地址加载规则，使用默认 24 �
 | `Claude Code` | claude-code.list | 默认主力美国节点；可用 `hidden=1` 隐藏 |
 | `Other AI Platform` | ai-other.list | 其他 AI 服务与集成；可用 `hidden=1` 隐藏 |
 
-使用公开片段前，在自己的 `[Proxy Group]` 中定义对应组并选择已有出口。按域名共享的请求遵循其命中的清单。
+使用公开片段前，在自己的 `[Proxy Group]` 中定义对应组并选择已有出口。按域名共享的请求遵循其命中的清单。Gemini iOS 实测后端 `robinfrontend-pa.googleapis.com` 归入 `google-ai.list`，与 Gemini 网页使用相同的 `Google AI` 策略组。
 
 [ai-other.list](local/ai-other.list) 包含 Copilot、Perplexity、NotebookLM、TRAE 国际站、Dify 云端和若干集成，包括 GitHub 通用 API `api.github.com`。TRAE 中国站 `trae.cn` 等国内站点沿用已有的地区分流规则。
 

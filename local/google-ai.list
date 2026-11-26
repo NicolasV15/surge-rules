@@ -19,6 +19,9 @@ DOMAIN, generativelanguage.googleapis.com
 DOMAIN, makersuite.google.com
 DOMAIN, proactivebackend-pa.googleapis.com
 
+# Gemini iOS backend observed in Surge; from Sukka AIGC (AGPL-3.0).
+DOMAIN,robinfrontend-pa.googleapis.com
+
 DOMAIN-SUFFIX,gemini.google
 DOMAIN,cloudcode-pa.googleapis.com
 DOMAIN,daily-cloudcode-pa.googleapis.com
